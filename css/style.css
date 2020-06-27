@@ -8,10 +8,10 @@ html {
 }
 
 .header {
-  background-color: #43f56f;
+  background-color: hsla(135, 90%, 61%, 0.705);
   width: 100%;
   text-align: center;
-  padding: 15px;
+  padding: 50px;
   font-size: 25px;
   font-weight: 700;
 }
@@ -21,6 +21,14 @@ html {
   padding: 50px;
   width: 100%;
   max-width: 750px;
+  
+}
+
+.container__background{
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .form__labelText {
