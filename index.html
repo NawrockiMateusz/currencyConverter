@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/form.css">
+    <script defer src="js/script.js"></script>
+    <title>GetMoney - kantor</title>
+</head>
+
+<body>
+    <header class="header">
+        Internetowy kantor - GetMoney
+    </header>
+    <section class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Wymiana waluty
+                </legend>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Ile wymieniasz:
+                        </span>
+                        <input class="form__field js-amount" name="calculations" type="number" min="1">
+                    </label>
+                </p>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Wymiana z:
+                        </span>
+                        <select class="form__field--select js-change">
+                            <option value="pln">PLN</option>
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                            <option value="gbp">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Wymiana na:
+                        </span>
+                        <select class="form__field--select js-changeOn">
+                            <option value="pln">PLN</option>
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                            <option value="gbp">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__paragraph">
+                    <button class="form__button js-button">Oblicz</button>
+                    <button type="reset" class="form__button js-resetButton">Resetuj</button>
+                </p>
+                <p class="form__paragraph--source">
+                    Otrzymasz: <strong class="finalResult"></strong>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

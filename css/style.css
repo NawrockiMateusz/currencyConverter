@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.header {
+  background-color: #43f56f;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.form__labelText {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.form__field {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  width: 80%;
+  text-align: center;
+}
+
+.form__field--select {
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form__fieldset {
+  text-align: center;
+  border-color: #43f56f;
+  border-radius: 25px;
+}
+
+.form__legend {
+  background-color: #43f56f;
+  border-radius: 50px;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form__paragraph {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.form__paragraph--source {
+  border-top: 3px dotted #43f56f;
+  padding-top: 15px;
+}
+
+.form__button {
+  cursor: pointer;
+  background-color: #43f56f;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  margin: 10px;
+}
+
+.form__button:hover {
+  background-color: hsl(135, 90%, 75%);
+}
