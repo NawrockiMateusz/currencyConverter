@@ -10,3 +10,5 @@
   </ul>
   
 In the future I plan to add live courses. But I still have to learn a lot.
+
+Tutaj możesz sprawdzić jego działanie: https://nawrockimateusz.github.io/currencyConverter/
